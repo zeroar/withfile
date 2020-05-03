@@ -40,7 +40,7 @@ class UploadPhoto extends Component
 use WithFile; // add this to implement
 // this is target variable
 // this variable will turn to array after upload file
-public \$photo;
+public $photo;
 
     // please implement this variable and add the variable target
     // if you not implement this, WithFile will not working
