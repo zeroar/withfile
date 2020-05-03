@@ -9,7 +9,9 @@ If you use input with type file and implement `wire:model`, is that work for you
 
 Install this using composer.
 
+```composer
 composer require zeroar/withfile
+```
 
 After you install, update your layouts and add `@withfileScripts` after `@livewireScripts`.
 
