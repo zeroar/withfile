@@ -121,7 +121,7 @@ Or if you want to resize both of width and height, below is example for this:
   @endisset
   
   Upload Photo
-  <input type="file" wire:withfile="photo" with-resize-if-image with-max-width="1080" with-max-height="1080">
+  <input type="file" wire:withfile="photo" with-resize-if-image with-max-both="1080">
 
 </div>
 ```
