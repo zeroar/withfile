@@ -126,6 +126,19 @@ Or if you want to resize both of width and height, below is example for this:
 </div>
 ```
 
+#### wire:withfile
 
-## Properties in component
+Use this attribute looks like you use `wire:model`, but it's not same with `wire:model`. So, all in `wire:model` can't implemented to `wire:withfile`.
+
+#### with-resize-if-image
+
+This is will resize your file if you upload an image. Before file image send to your component, image will resized.
+
+#### with-max-both
+
+This will add the maximum of width and height. In example, if height greater than width then the height will be set to maximum and width will automatically resized.
+
+#### with-max-width, with-max-height
+
+Use this if you wan't to resize just height or width for the maximum of image width or height.
 
