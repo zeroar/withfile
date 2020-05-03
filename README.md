@@ -9,7 +9,9 @@ If you use input with type file and implement `wire:model`, is that work for you
 
 Install this using composer.
 
+```composer
 composer require zeroar/withfile
+```
 
 After you install, update your layouts and add `@withfileScripts` after `@livewireScripts`.
 
@@ -38,7 +40,7 @@ class UploadPhoto extends Component
 use WithFile; // add this to implement
 // this is target variable
 // this variable will turn to array after upload file
-public \$photo;
+public $photo;
 
     // please implement this variable and add the variable target
     // if you not implement this, WithFile will not working
