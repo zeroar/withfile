@@ -1,5 +1,9 @@
 # Livewire Uploading File
 
+[![Latest Stable Version](https://poser.pugx.org/zeroar/withfile/v/stable)](https://packagist.org/packages/zeroar/withfile)
+[![Total Downloads](https://poser.pugx.org/zeroar/withfile/downloads)](https://packagist.org/packages/zeroar/withfile)
+[![License](https://poser.pugx.org/zeroar/withfile/license)](https://packagist.org/packages/zeroar/withfile)
+
 ## Introduction
 
 Do you have a problem for uploading file in livewire component? If yes, same with me.
